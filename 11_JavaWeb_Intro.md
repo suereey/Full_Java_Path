@@ -20,5 +20,8 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
 
 ## 静态 web
 - *.htm, *.html 这些都是网页的后缀. 如果服务器上一直存在这些东西，我们就可以进行读取
-- 缺点：web页面无法动态更新,所有用户看到的都是同一个页面
-![05]()
+- 缺点：
+    - web页面无法动态更新,所有用户看到的都是同一个页面
+        - 伪动态：实际开发中，经常用JavaScript。让静态网页动起来
+    - 无法和数据库交互(数据无法持久化)
+![05](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/05_JavaWeb.png)
