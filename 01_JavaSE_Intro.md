@@ -103,3 +103,18 @@ boolean flag2 = false;
         - 不能把对象类型转换成不相干类型
         - 不能把高容量转成低容量时候，强制转换
         - 转换的时候可能存在内存溢出, 或者精度的问题
+    - More example
+    ```
+    //操作比较大数的时候，注意溢出问题
+    //JDK7新特性，数字之间可以用下划线分隔
+
+    int money = 10_0000_0000;
+    int years = 20;
+
+    int total = money * years; //return -1474836480 计算的时候溢出了
+    long total2 = money * years; //return -1474836480 计算的时候溢出了. 因为money year默认是int，计算后，自动转换成int. 转换前已经存在问题了. 
+
+    long total3 = money*((long)years); //return 200_0000_0000
+    ```
+
+## 变量，常量，作用域
