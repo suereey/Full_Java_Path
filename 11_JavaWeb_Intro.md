@@ -25,3 +25,6 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
         - 伪动态：实际开发中，经常用JavaScript。让静态网页动起来
     - 无法和数据库交互(数据无法持久化,用户无法交互)
 ![05](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/05_JavaWeb.png)
+
+## 动态Web
+- 页面会动态展示。 web的页面展示效果因人而异
