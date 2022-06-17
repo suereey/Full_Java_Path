@@ -28,10 +28,29 @@ public class Demo01 {
 }
 ```
 
-![04Scanner]()
-
-## 顺序结构
+![04Scanner](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/04_Scanner_next.png)
 
 ## if statement
+## Swtich
+
+```
+switch (expression) {
+
+  case value1:
+    // code
+    break;
+  
+  case value2:
+    // code
+    break;
+  
+  ...
+  ...
+  
+  default:
+    // default statements
+  }
+```
 
 ## while statement
+## DOwhile statement
