@@ -5,7 +5,7 @@
     - JRE: Java Runtime Environment
         - JVM: Java Virtual Machine
 ## Hello World in Java
-    - Build a file with name, Hello.java
+- Build a file with name, Hello.java
 
     ```
     public class Hello{
@@ -15,7 +15,7 @@
     }
     ```
 
-    - In Command Prompt:
+- In Command Prompt:
 
     ```
     javac Hello.java //编译javac java文件会生成一个class文件
