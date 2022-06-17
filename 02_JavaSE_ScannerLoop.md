@@ -1,4 +1,4 @@
-# Java Scanner and Loop
+# Scanner and Loop
 ## Scanner对象
 - 通过Scanner类来获取用户的输入 (```java.util.Scanner```)
 - Can use next() or nextLine()
@@ -72,3 +72,12 @@ public static void main(String[] args) {
     }
 }
 ```
+
+``` 
+int[] numbers = {1,2,3,4,5}; //定义一个数组
+for(int x:numbers){ //遍历数组
+  System.out.println(x);
+}
+```
+
+## break, conitnue, goto
