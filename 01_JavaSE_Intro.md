@@ -186,3 +186,15 @@ x ? y : z;
 int score = 80;
 score<60 ?"yes":"no"; return no
 ```
+
+- JavaDoc
+    - [Java™ Platform, Standard Edition 8 API Specification](https://docs.oracle.com/javase/8/docs/api/)
+    - type /**, hit enter
+
+    ```
+    /**
+        * @author wang1
+        * @version 1.0
+        * since 1.8
+    */
+    ```
