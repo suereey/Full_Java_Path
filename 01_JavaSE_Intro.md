@@ -24,13 +24,13 @@
 
 ## Java注释
 - //单行注释
-- /*多行注释*/
+- /* 多行注释 */
 - /**文档注释 */ 
 
 ## Java Keywords. Example: class, boolean, try... [more](https://www.w3schools.com/java/java_ref_keywords.asp)
 
-## Datatype
-
+## Datatype: 8个基本类型 & 扩展
+- 8个基本类型
 ```
 //整数
 int num1 = 10;
@@ -54,4 +54,24 @@ boolean flag2 = false;
 ```
 
 ![03](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/03_datatypes.png)
-![02](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/02_datatypes.png)
+
+- 数据类型扩展
+
+    - 整数拓展
+    ```
+    整数拓展: 进制 二进制0b, 八进制0, 十进制, 十六进制0x
+    int i = 10; //十进制 return 10
+    int i2 = 010; //八进制 return 8
+    int i3 = 0x10; //十六进制 return 16
+    ```
+
+    - 浮点数拓展: float and double
+    ```
+    float f = 0.1f; // 0.1
+    double d = 1.0/10; //0.1
+    System.out.println(f==d); // return false
+
+    float d1 = 231313131313131313f;
+    float d2 = d1+1;
+    System.out.println(f==d); // return true
+    ```
