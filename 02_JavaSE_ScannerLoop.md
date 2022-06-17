@@ -1,4 +1,4 @@
-# Java Basic
+# Java Scanner and Loop
 ## Scanner对象
 - 通过Scanner类来获取用户的输入 (```java.util.Scanner```)
 - Can use next() or nextLine()
@@ -31,7 +31,7 @@ public class Demo01 {
 ![04Scanner](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/04_Scanner_next.png)
 
 ## if statement
-## Swtich
+## swtich statement
 
 ```
 switch (expression) {
@@ -39,18 +39,36 @@ switch (expression) {
   case value1:
     // code
     break;
-  
   case value2:
     // code
-    break;
-  
-  ...
-  ...
-  
+    break;  
   default:
     // default statements
   }
 ```
 
-## while statement
-## DOwhile statement
+## loop
+- while loop
+- do...while loop: 即使不满足，也run一次。
+```
+public class DoWhileDemo {
+    public static void main(String[] args) {
+        int i= 1;
+        int sum = 0;
+        do{
+            sum = sum + i;
+            i ++;
+        }while(i < 0);
+        System.out.println(sum); //print sum = 1
+    }
+}
+
+``` 
+- for loop
+```
+public static void main(String[] args) {
+    for(int i=1; i<10; i++){
+        System.out.println(i);
+    }
+}
+```
