@@ -66,6 +66,8 @@ boolean flag2 = false;
     ```
 
     - 浮点数拓展: float and double
+        - **最好不用float比较**.
+        - **银行业务怎么表示钱: BigDecimal (数学工具类)**
     ```
     float f = 0.1f; // 0.1
     double d = 1.0/10; //0.1
@@ -74,4 +76,22 @@ boolean flag2 = false;
     float d1 = 231313131313131313f;
     float d2 = d1+1;
     System.out.println(f==d); // return true
+
+    // float: 有限，离散，舍入误差 大约 接近但不等于
+    ```
+
+- 字符拓展: 字符强制转换成数字
+    ```
+    char c1 = "a";
+    System.out.println((int)c1);
+    ```
+- 类型转换 （Java是强类型语言）
+    - 自动转换: low -> High (byte, short, char -> int -> long -> float -> double)
+    - 强制转换
+    ```
+    int i = 128
+    byte b = (byte) i //内存溢出
+
+    System.out.println(i); //return 128
+    System.out.println(b); //return -128, 内存溢出
     ```
