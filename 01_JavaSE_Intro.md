@@ -118,3 +118,71 @@ boolean flag2 = false;
     ```
 
 ## 变量，常量，作用域
+- Define 变量: ```int num1 = 10```
+```
+String name = "abc"; //string use ""
+char x = 'a'; //char use ''
+```
+- 变量： 变量名，变量类型， **作用域**
+```
+public class Variable{
+    static int allClicks = 0; //类变量 (class variable)
+    String str  = "hello"; // 实例变量 (instance variable)
+    public void method(){
+        int i = 0; // 局部变量 (local variable) 必须声明和初始化值
+    }
+}
+```
+
+- 常量: **final** keyword 
+
+```
+//修饰符不存在先后顺序 (public, static, final...)
+static final double PI = 3.14;
+final static double PI = 3.14;
+```
+
+- 命名规范
+    - 变量: monthSalary
+    - 常量: PI; MAX_VALUE;
+    - class name: GoodMan; Man
+    - Method name: run(); runRun();
+## 基本运算符
+- +, -, *, /,  %(余数), ++, --
+- ==, !=
+- &&, ||, ! (and, or, not)
+
+```
+public class Demo04 {
+    public static void main(String[] args) {
+        //++ -- 自增，自减 一元运算
+        int a = 3;
+
+        int b = a++; //执行完代码后，先给b赋值，再自增
+        //a = a+1
+
+        System.out.println(a); //4
+        //a = a+1
+        int c = ++a; //执行完代码后，先给a自增,再给c赋值
+
+        System.out.println(a); //5
+        System.out.println(a); //5
+        System.out.println(b);//3
+        System.out.println(b);//3
+        System.out.println(c); //5
+        System.out.println(c); //5
+
+        //2^3 = 8
+        double pow = Math.pow(2,3);
+        System.out.println(pow);
+    }
+}
+```
+
+- **三元运算符**
+```
+x ? y : z;
+//if x is true, return y, else retur z
+int score = 80;
+score<60 ?"yes":"no"; return no
+```
