@@ -87,11 +87,19 @@ boolean flag2 = false;
     ```
 - 类型转换 （Java是强类型语言）
     - 自动转换: low -> High (byte, short, char -> int -> long -> float -> double)
-    - 强制转换
+    - 强制转换: High -> Low (try not to do this!)
     ```
     int i = 128
     byte b = (byte) i //内存溢出
 
     System.out.println(i); //return 128
     System.out.println(b); //return -128, 内存溢出
+
+    System.out.println((int)23.7); //return 23 精度问题
+    ystem.out.println((int)-45.89f); //return -45 精度问题
     ```
+    - **注意点**:
+        - 不能对boolean进行转换
+        - 不能把对象类型转换成不相干类型
+        - 不能把高容量转成低容量时候，强制转换
+        - 转换的时候可能存在内存溢出, 或者精度的问题
