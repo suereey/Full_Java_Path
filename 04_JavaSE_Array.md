@@ -22,7 +22,7 @@ System.out.println(nums[9]);
 ## 内存分析
 - 堆 (heap):
 - 栈 (stack): 
-``
+```
 //1. 定义数组 
 int[] array1 = null;
 
@@ -33,6 +33,10 @@ array1 = new int[10];
 array1[0] = 1;
 //...
 ```
+
+![09]()
+![08]()
+
 ## 多维数组
 ## Arrays 类
 ## 稀疏数组
