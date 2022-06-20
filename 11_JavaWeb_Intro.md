@@ -28,3 +28,10 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
 
 ## 动态Web
 - 页面会动态展示。 web的页面展示效果因人而异
+- 缺点：
+    - 假如服务器外部的web资源出现了错误，我们需要重新编写我们的后台程序,重新发布
+        - 停机维护
+- 优点:
+    - 可以动态更新，所有用户看到的都不一样
+    - 可以与数据库交互
+![06](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/06_JavaWeb.png)
