@@ -20,8 +20,7 @@ System.out.println(nums[9]);
 - **Array.length**
 
 ## 内存分析
-- 堆 (heap):
-- 栈 (stack): 
+- 堆 (heap) and 栈 (stack): 
 ```
 //1. 定义数组 
 int[] array1 = null;
@@ -37,6 +36,10 @@ array1[0] = 1;
 ![09]()
 ![08]()
 
+## 三种初始化状态
+- 静态
+- 动态
+- 默认初始化
 ## 多维数组
 ## Arrays 类
 ## 稀疏数组
