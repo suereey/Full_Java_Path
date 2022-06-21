@@ -79,4 +79,11 @@ int[][] array = new int[2][4];
 ```
 
 ## Arrays 类
-## 稀疏数组
+```
+import java.util.Arrays; //在这个之后，就可以使用一些自带的function。比如
+
+System.out.println(Arrays.toString(array1)); //print full array
+
+Arrays.sort(array1); //sort array
+
+```
