@@ -101,7 +101,15 @@ public Person(String name){
     - 动态的行为 方法
 ## 封装, 继承, 多态
 - encapsulate
-![11]()
+    - 提高程序安全性，保护数据
+    - 隐藏代码实现的细节
+    - 统一接口（get，set）
+    - 提高系统的可维护性
+    - Example: Private, get/set
+    ![11]()
+- inheritance
+    - 子类继承了父类，就继承了父类的all public methods, and all public attribute (like ``` public int money = 10_0000_0000;```)
+- polymorphism
 ## Super keyword
 ## 面向对象三大特性
 ## 抽象类和接口
