@@ -100,6 +100,9 @@ public Person(String name){
     - 静态的属性 属性
     - 动态的行为 方法
 ## 封装, 继承, 多态
+- encapsulate
+![11]()
+## Super keyword
 ## 面向对象三大特性
 ## 抽象类和接口
 
