@@ -109,8 +109,13 @@ public Person(String name){
     ![11]()
 - inheritance
     - 子类继承了父类，就继承了父类的all public methods, and all public attribute (like ``` public int money = 10_0000_0000;```)
+    - **Super keyword**
+    ![12]()
 - polymorphism
-## Super keyword
-## 面向对象三大特性
+
 ## 抽象类和接口
+- abstract class
+- interface
+
+## N种内部类
 
