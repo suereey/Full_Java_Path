@@ -75,7 +75,7 @@ public Person(String name){
 //alt+insert默认帮你生成有参构造器
 ```
 ## 创建对象内存分析
-![10_Memory]()
+![10_Memory](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/10_ClassMethod_Memory.png)
 
 ## Summary Class vs. Object
 - class是一个模板，抽象； object是一个具体的实例
@@ -106,16 +106,33 @@ public Person(String name){
     - 统一接口（get，set）
     - 提高系统的可维护性
     - Example: Private, get/set
-    ![11]()
+    ![11](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/11_PrivateGetSet.png)
 - inheritance
     - 子类继承了父类，就继承了父类的all public methods, and all public attribute (like ``` public int money = 10_0000_0000;```)
     - **Super keyword**
-    ![12]()
+    ![12](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/12_Super.png)
 - polymorphism
 
+- Summary
+![13](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/13_Override.png)
 ## 抽象类和接口
 - abstract class
-- interface
+- interface: 接口都需要有实现类
+```
+//define interface
+public interface UserService{
+    void add(String name);
+    void delete(String name);
+    void update(String name);
+    void query(String name);
+}
 
-## N种内部类
+public class UserServicImpl implements UserService{
+
+}
+```
+
+## 内部类
+
+# Error and Exception
 
