@@ -56,3 +56,11 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
 
 - **web服务器: 服务器是一种被动的操作，用来处理用户的一些请求和给用户一些相应信息**
     - **Tomcat** 实际上运行JSP 页面和Servlet
+
+## Tomcat
+- Install Tomcat
+- 启动和配置
+    ![14_tomcat]()
+    - start: apache-tomcat-10.0.22-windows-x64\apache-tomcat-10.0.22\bin\startup.bat
+    - **http://localhost:8080/**
+    - close
