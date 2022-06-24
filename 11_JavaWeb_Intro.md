@@ -60,7 +60,19 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
 ## Tomcat
 - Install Tomcat
 - 启动和配置
-    ![14_tomcat]()
+    ![14_tomcat](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/14_TomCat_install.png)
     - start: apache-tomcat-10.0.22-windows-x64\apache-tomcat-10.0.22\bin\startup.bat
     - **http://localhost:8080/**
     - close
+- Related ports:
+    - tomcat: 8080
+    - mysql: 3306
+    - http: 80
+    - https: 443
+- 网站是如何访问的?
+    - 输入一个域名：回车
+    - 检查本机的C:\WINDOWS\system32\drivers\etc\hosts配置文件下有没有这个域名的映射
+        - Yes: 直接返回ip地址，这个地址中，有我们需要访问的web程序
+        ```127.0.0.1    www.xxx.com```
+        - No: 去DNS服务器找. (DNS: 全世界的域名都在这管理)
+
