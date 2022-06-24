@@ -35,3 +35,8 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
     - 可以动态更新，所有用户看到的都不一样
     - 可以与数据库交互
 ![06](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/06_JavaWeb.png)
+
+## web服务器
+- ASP: microsfoft
+- JSP
+- PHP
