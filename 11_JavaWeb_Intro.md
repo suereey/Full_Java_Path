@@ -37,6 +37,9 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
 ![06](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/06_JavaWeb.png)
 
 ## web服务器
-- ASP: microsfoft
+- ASP (not important now): 
+    - microsfoft
+    - 在html中嵌入了vb的脚本，ASP+COM
+    - 在ASP开发中基本一个页面
 - JSP
 - PHP
