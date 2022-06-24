@@ -37,9 +37,22 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
 ![06](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/06_JavaWeb.png)
 
 ## web服务器
-- ASP (not important now): 
-    - microsfoft
-    - 在html中嵌入了vb的脚本，ASP+COM
-    - 在ASP开发中基本一个页面
-- JSP
-- PHP
+- 技术
+    - ASP (not important now): 
+        - microsfoft
+        - 在html中嵌入了vb的脚本，ASP+COM
+        - 在ASP开发中基本一个页面都有几千行业务代码，页面乱。维护成本高
+
+    - PHP (more popular)
+        - 开发速度快，功能强大，跨平台，代码简单 (70%, WP)
+        - 无法承载大访问量的情况（局限性）
+
+    - **JSP/Servlet**:
+        - Sun公司主推的B/S架构
+            - B/S浏览器和服务器
+            - C/S客户端和服务器
+        - 基于java
+        - 可以承载三高问题带来的影响
+
+- **web服务器: 服务器是一种被动的操作，用来处理用户的一些请求和给用户一些相应信息**
+    - **Tomcat** 实际上运行JSP 页面和Servlet
