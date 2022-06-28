@@ -75,4 +75,20 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
         - Yes: 直接返回ip地址，这个地址中，有我们需要访问的web程序
         ```127.0.0.1    www.xxx.com```
         - No: 去DNS服务器找. (DNS: 全世界的域名都在这管理)
+## 发布一个web网站
+- 将自己写的网站，放到服务器（tomcat）中指定的web应用的文件夹下（tomcat->webapp）下就可以访问了
+```
+--webapps:  Tomcat服务器的web目录
+    - ROOT
+    - xxx:  网站的目录名
+        -WEB-INF
+            - **web.xml**
+        - index.html    默认的首页
+        - static
+            - css
+                -style.css
+            - js
+            - img
+        - ...
+```
 
