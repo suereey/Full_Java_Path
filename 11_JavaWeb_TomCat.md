@@ -36,7 +36,7 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
     - 可以与数据库交互
 ![06](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/06_JavaWeb.png)
 
-## web服务器
+## web服务器 (web server)
 - 技术
     - ASP (not important now): 
         - microsfoft
@@ -57,7 +57,7 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
 - **web服务器: 服务器是一种被动的操作，用来处理用户的一些请求和给用户一些相应信息**
     - **Tomcat** 实际上运行JSP 页面和Servlet
 
-## Tomcat
+## Web server: Tomcat
 - Install Tomcat
 - 启动和配置
     ![14_tomcat](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/14_TomCat_install.png)
@@ -77,18 +77,4 @@ web应用程序编写完毕后，若想提供给外界访问: 需要一个服务
         - No: 去DNS服务器找. (DNS: 全世界的域名都在这管理)
 ## 发布一个web网站
 - 将自己写的网站，放到服务器（tomcat）中指定的web应用的文件夹下（tomcat->webapp）下就可以访问了
-```
---webapps:  Tomcat服务器的web目录
-    - ROOT
-    - xxx:  网站的目录名
-        -WEB-INF
-            - **web.xml**
-        - index.html    默认的首页
-        - static
-            - css
-                -style.css
-            - js
-            - img
-        - ...
-```
-
+![17_web.xml]()

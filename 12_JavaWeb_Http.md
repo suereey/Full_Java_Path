@@ -13,6 +13,27 @@
         - HTTP/1.1: 客户端可以与web服务器连接后，可以获得多个web资源
 
 ## http请求 request
-![15]()
+![15](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/15_request.png)
+
+Request Body
+- request method： GET， POST， PUT， DELETE
+    - GET: 请求能够携带的参数少，大小有限，会在浏览器的url地址栏显示数据内容，不安全，但高效
+    - PUT: 请求能够携带的参数没有限制，大小没有限制，不会在浏览器的url地址栏显示数据内容，安全，但不高效 (not no difference in 5G internet)
+
+Request Head
+![18_requesthead]()
+
+
+
+
 ## http响应 response
-![16]()
+![16](https://raw.githubusercontent.com/suereey/Full_Java_Path/main/ScreenShot/JavaSE/16_response.png)
+
+Response code:
+- 200： 请求响应成功
+- 3××：请求重定向
+- 404：找不到资源
+- 4**: 资源不存在
+- 5**: 服务器代码错误
+
+# Maven
